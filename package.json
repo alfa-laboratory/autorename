@@ -1,6 +1,6 @@
 {
-  "name": "autorename",
-  "version": "1.0.0",
+  "name": "autorename-cli",
+  "version": "1.0.1",
   "description": "CLI утилита для переименования файлов и папок в стиль kebab-case",
   "repository": {
     "type": "git",
@@ -21,11 +21,6 @@
   },
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "colors": "1.4.0",
-    "commander": "5.0.0",
-    "lodash.kebabcase": "4.1.1"
-  },
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^5.0.0",

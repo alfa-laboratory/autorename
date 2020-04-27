@@ -12,6 +12,6 @@ to  /dev/test/mock-state.js
 
 Установка
 ```
-npm install -g autorename
+$ sudo npm install -g autorename-cli
 ```
 
