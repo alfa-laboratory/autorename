@@ -1,0 +1,35 @@
+{
+  "name": "autorename",
+  "version": "1.0.0",
+  "description": "CLI утилита для переименования файлов и папок в стиль kebab-case",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfa-laboratory/autorename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfa-laboratory/autorename/issues"
+  },
+  "homepage": "https://github.com/alfa-laboratory/autorename#readme",
+  "scripts": {
+    "start": "node src/bin/autorename.js"
+  },
+  "files": [
+    "src"
+  ],
+  "bin": {
+    "autorename": "src/bin/autorename.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "colors": "1.4.0",
+    "commander": "5.0.0",
+    "lodash.kebabcase": "4.1.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "lodash.kebabcase": "^4.1.1"
+  },
+
+}
